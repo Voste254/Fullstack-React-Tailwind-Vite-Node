@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+  .btn {
+    @apply px-3 py-1 mx-1 bg-green-50 text-black rounded hover:bg-green-100;
+  }
+  @layer base {
+  h1 {
+    @apply text-4xl font-bold;
+  }
+
+  h2 {
+    @apply text-3xl font-semibold;
+  }
+
+  h3 {
+    @apply text-2xl font-semibold;
+  }
+
+  h4 {
+    @apply text-xl font-medium;
+  }
+
+  h5 {
+    @apply text-lg font-medium;
+  }
+
+  p {
+    @apply text-base text-gray-800;
+  }
+}
