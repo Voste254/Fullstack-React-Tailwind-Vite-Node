@@ -6,7 +6,7 @@ const app=express();
 app.use(cors())
 
 app.get("/getData",(req,res)=>{
-    res.send("All Set")
+    res.send("Bytecity")
 });
 
 app.listen(5000, ()=>console.log(`App running on port ${port}`))
